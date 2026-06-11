@@ -294,11 +294,15 @@ video{
         overflow: hidden; /*la pagina sotto non può essere scrollata quando il menu è aperto e questo evita degli errori di spazi nel riquadro*/
     }
 
+    .nav-links a:hover{
+     color: #484C6D;
+    }
+
     .nav-links a.active{
-    color: white;
-    border-bottom: white 2px solid;
-    padding-bottom: 2px;
-}
+     color: white;
+     border-bottom: white 2px solid;
+     padding-bottom: 2px;
+    }
 
     /*logica del checkbox*/
     .menu-toggle:checked ~ .nav-links {
